@@ -1,0 +1,35 @@
+.tic {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  text-align: center;
+  justify-items: center;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  grid-template-columns: repeat(3, auto);
+  /* grid-template-rows: repeat(3 auto); */
+  color: blanchedalmond;
+  margin: 5px;
+}
+.mark {
+  width: 150px;
+  height: 150px;
+  border: 1px solid violet;
+  font-size: 100px;
+  text-align: center;
+  justify-items: center;
+  margin-top: 5px;
+}
+
+.button {
+  background-color: black;
+  color: blanchedalmond;
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  justify-items: center;
+  margin-inline: 220px;
+}
