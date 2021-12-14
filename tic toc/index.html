@@ -6,25 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tic.css">
+    <link rel="js" href="tic.js">
     <title>Tic Tac Toe</title>
 </head>
 
 <body>
     <h1 class="tic">Tic Tac Toe</h1>
+    <section class="display">
+    <h2>Player <span>X</span>s' turn</h2>
+</section>
     <div class="container">
-        <div class="mark" onclick="O">O</div>
-        <div class="mark">X</div>
-        <div class="mark">X</div>
-        <div class="mark">O</div>
-        <div class="mark">X</div>
-        <div class="mark">O</div>
-        <div class="mark">X</div>
-        <div class="mark">O</div>
-        <div class="mark">O</div>
+        <div class="mark"></div>
+        <div class="mark"></div>
+        <div class="mark"></div>
+        <div class="mark"></div>
+        <div class="mark"></div>
+        <div class="mark"></div>
+        <div class="mark"></div>
+        <div class="mark"></div>
+        <div class="mark"></div>
+        <div id="strike" class="strike"></div>
 
     </div>
-    <button class="button">Restart</button>
+    <button class="button" id="reset" onclick="reset">Restart</button>
 
 </body>
 
 </html>
+
+<!-- <script>function myFunction() {
+    document.getElementById("demo").innerHTML = "O";
+  }</script>
+
+id="demo" onclick="myFunction(O)" -->

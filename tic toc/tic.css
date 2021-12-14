@@ -15,8 +15,8 @@
   margin: 5px;
 }
 .mark {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border: 1px solid violet;
   font-size: 100px;
   text-align: center;
@@ -32,4 +32,13 @@
   text-align: center;
   justify-items: center;
   margin-inline: 220px;
+}
+
+.strike{
+  position: absolute;
+  background-color: darkred;
+}
+
+.hide{
+  display: none;
 }
