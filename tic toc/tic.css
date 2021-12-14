@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.display {
+  color: palevioletred;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
 .container {
   display: grid;
   text-align: center;
@@ -34,11 +42,14 @@
   margin-inline: 220px;
 }
 
-.strike{
+.strike {
   position: absolute;
   background-color: darkred;
 }
 
-.hide{
+.hide {
   display: none;
+}
+.playerX {
+  font-size: 50px;
 }

@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
   const marks = Array.from(document.querySelectorAll(".mark"));
-  const display = document.querySelector(".display");
+  const display = document.querySelector(".display-player");
   const reset = document.querySelector("#reset");
   const msg = document.querySelector(".msg");
 
