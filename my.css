@@ -1,0 +1,116 @@
+body {
+  background-image: url(snow.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+/* div {
+  justify-content: center;
+  align-items: center;
+} */
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  background-image: url(snow.jpg);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  /* text-decoration: none; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  /* text-decoration: none; */
+}
+/* div {
+  width: 100px;
+  height: 100px;
+  color: black;
+  animation-name: example;
+  animation-duration: 3s;
+}
+@keyframes example {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
+} */
+
+.kaledos {
+  width: 300px;
+  height: 200px;
+  /* background-image: url(snowflake.jpg); */
+  position: relative;
+  animation-name: snowflake;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  animation-name: example;
+  animation-duration: 3s;
+  margin-left: 40%;
+}
+@keyframes example {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+
+/* @keyframes snowflake {
+ 
+} */
+
+audio {
+  margin-left: 80%;
+}
