@@ -7,10 +7,10 @@ body {
   align-items: center; */
 }
 
-/* div {
-  justify-content: center;
+div {
+  justify-content: left;
   align-items: center;
-} */
+}
 ul {
   list-style-type: none;
   margin: 5px;
@@ -89,16 +89,16 @@ ul {
     top: 0px;
   }
   25% {
-    left: 200px;
+    left: 300px;
     top: 0px;
   }
   50% {
-    left: 200px;
-    top: 200px;
+    left: 300px;
+    top: 300px;
   }
   75% {
     left: 0px;
-    top: 200px;
+    top: 300px;
   }
   100% {
     left: 0px;
@@ -106,11 +106,31 @@ ul {
   }
 }
 
-
 /* @keyframes snowflake {
  
 } */
 
 audio {
   margin-left: 80%;
+}
+
+img {
+  position: relative;
+  margin-top: 150px;
+  margin-right: 750px;
+  animation-iteration-count: infinite;
+  animation-name: santa;
+  animation-duration: 20s;
+}
+
+@keyframes santa {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 100%;
+  }
 }
