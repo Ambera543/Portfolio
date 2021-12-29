@@ -17,18 +17,23 @@ ul {
   padding: 5px;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 25px;
   background-image: url(snow.jpg);
 }
+
+/* font-size: 25px;
+position: fixed;
+top: 0% */
 
 .dropdown {
   position: relative;
   display: inline-block;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 25px;
   justify-content: center;
   align-items: center;
-  margin-left: 40%;
+  margin-left: 60%;
+  top: 40px;
   /* text-decoration: none; */
 }
 
@@ -135,10 +140,10 @@ audio {
   }
 }
 
-.tree{
+.tree {
   position: absolute;
   width: 400px;
   height: 400px;
-margin-left: 50%;
-margin-top: auto;
+  margin-left: 50px;
+  margin-top: auto;
 }
