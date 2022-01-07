@@ -14,8 +14,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  animation: rain 0.4s linear infinite; 
-  opacity: 0; 
+  /* animation: rain 0.4s linear infinite; 
+  opacity: 0;  */
 
 }
 
