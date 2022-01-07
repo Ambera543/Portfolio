@@ -74,11 +74,11 @@ div.back-row-toggle .rain.back-row {
   width: 1px;
   height: 60%;
   margin-left: 7px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0.25)
-  );
+  ); */
   animation: stem 0.5s linear infinite;
 }
 
@@ -149,7 +149,7 @@ div.splat-toggle .splat {
   font-family: sans-serif;
   font-size: 10px;
   font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
   color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   cursor: pointer;
