@@ -1,7 +1,6 @@
 body {
   height: 100%;
   margin: 0;
-
   background-image: url(valentines_day.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -26,9 +25,10 @@ header {
 .login-box {
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 75%;
   width: 400px;
   padding: 40px;
+  margin-top: 40px;
   /* transform: translate(-50%, -50%); */
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
@@ -73,7 +73,7 @@ header {
 .login-box .user-box input:valid ~ label {
   top: -20px;
   left: 0;
-  color: #03e9f4;
+  color: rgb(145, 51, 145);
   font-size: 12px;
 }
 
@@ -81,7 +81,7 @@ header {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: #03e9f4;
+  color: #fff;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -92,11 +92,11 @@ header {
 }
 
 .login-box a:hover {
-  background: #03e9f4;
+  background: rgb(145, 51, 145);
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
+  box-shadow: 0 0 5px rgb(145, 51, 145), 0 0 25px rgb(145, 51, 145), 0 0 50px rgb(145, 51, 145),
+    0 0 100px rgb(145, 51, 145);
 }
 
 .login-box a span {
@@ -109,7 +109,7 @@ header {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
+  background: linear-gradient(90deg, transparent, rgb(145, 51, 145));
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -128,7 +128,7 @@ header {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #03e9f4);
+  background: linear-gradient(180deg, transparent, rgb(145, 51, 145));
   animation: btn-anim2 1s linear infinite;
   animation-delay: 0.25s;
 }
@@ -148,7 +148,7 @@ header {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #03e9f4);
+  background: linear-gradient(270deg, transparent, rgb(145, 51, 145));
   animation: btn-anim3 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -168,7 +168,7 @@ header {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #03e9f4);
+  background: linear-gradient(360deg, transparent, rgb(145, 51, 145));
   animation: btn-anim4 1s linear infinite;
   animation-delay: 0.75s;
 }
