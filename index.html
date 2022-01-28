@@ -5,43 +5,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="rain.js"></script>
   <link rel="stylesheet" href="val.css">
   <link rel="icon" type="image" href="heart.png">
   <script src="nav.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <title>Valentine's Day</title>
+  <title>Flowers shop</title>
 </head>
 
 <body>
   <div class="topnav" id="topNav">
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="#valentine">News</a>
     <a href="#" class="active">Home</a>
-    <a href="#">News</a>
-    <a href="#">Contact</a>
-    <a href="#">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="nav()">
+    <!-- <a href="javascript:void(0);" class="icon" onclick="nav()">
       <i class="fa fa-bars"></i>
-    </a>
+    </a> -->
     <header>Valentine's Day</header>
   </div>
   <div class="container">
     <div class="text">
-      <p class="valentine"> What is Valentine's Day?</p>
+      <p class="valentine" id="valentine"> What is Valentine's Day?</p>
       St Valentine's Day is an annual festival to celebrate romantic love,
       friendship and admiration. Every year on 14 February people celebrate
       this day by sending messages of love and affection to partners, family and friends.
+    </div>
+    <div class="about" id="about">
+      <H2>About us</H2> We receive fresh flowers to our store four times a week and that guarantees that your ordered
+      flower bouquet or cut flowers will reach recipient in the best condition.
     </div>
   </div>
   <div class="login-box">
     <h2>Login</h2>
     <form>
       <div class="user-box">
-        <input type="text" name="" required="">
+        <input type="text" name="" required>
         <label>Username</label>
       </div>
       <div class="user-box">
-        <input type="password" name="" required="">
+        <input type="password" name="" required>
         <label>Password</label>
       </div>
       <a href="#">
@@ -53,6 +56,12 @@
       </a>
     </form>
   </div>
+
+  <footer id="contact">
+    <p>Author: Gintare<br>
+      <a href="mailto:gintare@example.com">gintare@example.com</a>
+    </p>
+  </footer>
 
 
 </body>
