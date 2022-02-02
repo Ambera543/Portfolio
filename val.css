@@ -15,10 +15,16 @@ header {
   margin-left: 40%;
   color: red;
 }
-.container{
-
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
   padding: 10px;
-  width: 50em;
+  width: 100%;
+}
+
+@media (max-width:600px) {
+  .container{
+  grid-template-columns: auto;}
 }
 
 .topnav a {
@@ -30,6 +36,7 @@ header {
   text-decoration: none;
   font-size: 17px;
 }
+
 
 .topnav {
   background-color: rgba(0, 0, 0, 0.5);
@@ -50,7 +57,18 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .topnav {
+      width:100%;
+     
+    }
+     .topnav a {
+      width:100%;
+      float:none;
+    } 
+  }
+  /* @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
   }
@@ -64,7 +82,7 @@ header {
     display: block;
     text-align: left;
   }
-}
+} */
 
 .text {
   font-size: 30px;
@@ -72,7 +90,6 @@ header {
   justify-content: center;
   color: whitesmoke;
   font-weight: bold;
-  float: left;
   padding: 20px;
 }
 
@@ -84,11 +101,10 @@ header {
 }
 
 .login-box {
-  position:relative;
+  position: relative;
   top: 20%;
-  left: 75%;
+  /* left: 75%; */
   width: 400px;
-  
   padding: 20px;
   margin-top: 40px;
   background: rgba(0, 0, 0, 0.5);
@@ -96,7 +112,6 @@ header {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   letter-spacing: 4px;
-
 }
 
 .login-box h2 {
@@ -111,7 +126,7 @@ header {
 }
 
 .login-box .user-box input {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   font-size: 16px;
   color: #fff;
@@ -126,7 +141,7 @@ header {
   top: 0;
   left: 0;
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 20 px;
   color: #fff;
   pointer-events: none;
   transition: 0.5s;
@@ -140,7 +155,7 @@ header {
   font-weight: bold;
   font-size: 12px;
 }
-
+/* 
 .login-box form a {
   position: relative;
   display: inline-block;
@@ -154,7 +169,7 @@ header {
   margin-top: 40px;
   letter-spacing: 4px
 } 
-/* 
+
 .login-box a:hover {
   background: rgb(145, 51, 145);
   color: #fff;
@@ -175,6 +190,16 @@ header {
   height: 2px;
   background: linear-gradient(90deg, transparent, rgb(145, 51, 145));
   animation: btn-anim1 1s linear infinite;
+} */
+
+.btn {
+  background-color: grey;
+  color: pink;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes btn-anim1 {
@@ -187,7 +212,7 @@ header {
   }
 }
 
-.login-box a span:nth-child(2) {
+/* .login-box a span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -245,10 +270,9 @@ header {
   100% {
     bottom: 100%;
   }
-}  */ */
+}   */
 
-
-.about{
+.about {
   font-size: 30px;
   align-items: center;
   justify-content: center;
@@ -258,9 +282,10 @@ header {
   padding: 20px;
 }
 
-.carousel{
+.carousel {
   height: 600px;
-  margin: 0;
+  margin: 10px;
+  padding: 10px;
   display: grid;
   grid-template-rows: 500px 100px;
   grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
@@ -300,15 +325,15 @@ div.item {
 
 div.item:nth-of-type(1) {
   --offset: 1;
-  background-image:  url(bouquet1.jpg);
+  background-image: url(bouquet1.jpg);
 }
 div.item:nth-of-type(2) {
   --offset: 2;
-  background-image:  url(bouquet2.jpg);
+  background-image: url(bouquet2.jpg);
 }
 div.item:nth-of-type(3) {
   --offset: 3;
-  background-image:url(bouquet3.jpg);
+  background-image: url(bouquet3.jpg);
 }
 div.item:nth-of-type(4) {
   --offset: 4;
@@ -358,7 +383,6 @@ input:nth-of-type(5) {
 input:nth-of-type(5):checked ~ main#carousel {
   --position: 5;
 }
-
 
 footer {
   text-align: center;
