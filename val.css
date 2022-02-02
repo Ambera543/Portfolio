@@ -22,13 +22,14 @@ header {
   width: 100%;
 }
 
-@media (max-width:600px) {
-  .container{
-  grid-template-columns: auto;}
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: auto;
+  }
 }
 
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -37,8 +38,9 @@ header {
   font-size: 17px;
 }
 
-
 .topnav {
+  float: right;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
@@ -57,18 +59,16 @@ header {
   display: none;
 }
 
-
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .topnav {
-      width:100%;
-     
-    }
-     .topnav a {
-      width:100%;
-      float:none;
-    } 
+@media (max-width: 768px) {
+  .topnav {
+    width: 100%;
   }
-  /* @media screen and (max-width: 600px) {
+  .topnav a {
+    width: 100%;
+    float: none;
+  }
+}
+/* @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
   }
