@@ -1,7 +1,7 @@
 body {
   height: 100%;
   margin: 20px;
-  background-image: url(valentines_day.jpg);
+  background-image: url(back.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -148,13 +148,13 @@ header {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
-  /* text-transform: uppercase; */
-  overflow: hidden;
+  text-transform: uppercase;
+   overflow: hidden;
   transition: 0.5s;
   margin-top: 40px;
-  letter-spacing: 4px;
-}
-
+  letter-spacing: 4px
+} 
+/* 
 .login-box a:hover {
   background: rgb(145, 51, 145);
   color: #fff;
@@ -245,13 +245,14 @@ header {
   100% {
     bottom: 100%;
   }
-}
+}  */ */
+
 
 .about{
   font-size: 30px;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: whitesmoke;
   font-weight: bold;
   float: left;
   padding: 20px;
