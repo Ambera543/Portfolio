@@ -13,7 +13,7 @@ header {
   align-items: center;
   justify-content: center;
   margin-left: 40%;
-  color: red;
+  color: wheat;
 }
 .container {
   display: grid;
@@ -22,7 +22,7 @@ header {
   width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .container {
     grid-template-columns: auto;
   }
@@ -106,7 +106,7 @@ header {
   /* left: 75%; */
   width: 400px;
   padding: 20px;
-  margin-top: 40px;
+  margin: 40px;
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -141,7 +141,7 @@ header {
   top: 0;
   left: 0;
   padding: 10px 0;
-  font-size: 20 px;
+  font-size: 30 px;
   color: #fff;
   pointer-events: none;
   transition: 0.5s;
@@ -321,6 +321,16 @@ div.item {
   transform: rotateY(calc(-10deg * var(--r)))
     translateX(calc(-300px * var(--r)));
   z-index: calc((var(--position) - var(--abs)));
+}
+.buy{
+  margin-top: 125%;
+  margin-left: 40%;
+  padding: 5px 15px;
+  background-color: grey;
+  color: pink;
+  border-radius: 4px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.item:nth-of-type(1) {
